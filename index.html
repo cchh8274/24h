@@ -1,4 +1,9 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><title>首页</title><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"><link rel=stylesheet type=text/css href=static/css/reset.css><link rel="shortcut icon" type=image/x-icon href=static/favicon.png><link rel=stylesheet type=text/css href=static/css/swiper-3.4.1.min.css><script type=text/javascript src=static/js/swiper-3.4.1.min.js></script><link href=./static/css/app.8e230420376ec24cc2157634af16d8e9.css rel=stylesheet></head><body><div id=app></div><script>document.documentElement.style.fontSize = innerWidth / 10 + "px";
+<!DOCTYPE html><html><head><meta charset=utf-8><title>首页</title><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"><link rel=stylesheet type=text/css href=static/css/reset.css><link rel="shortcut icon" type=image/x-icon href=static/favicon.png><link rel=stylesheet type=text/css href=static/css/swiper-3.4.1.min.css><script type=text/javascript src=static/js/swiper-3.4.1.min.js></script><link href=./static/css/app.72ce45302357540343219f411602a36c.css rel=stylesheet></head><body><div id=app></div><script>document.documentElement.style.fontSize = innerWidth / 10 + "px";
 		window.onresize = function() {
 			document.documentElement.style.fontSize = innerWidth / 10 + "px";
-		}</script><script type=text/javascript src=./static/js/manifest.b55a25d9f4d90c80f93e.js></script><script type=text/javascript src=./static/js/vendor.9751f2b5b120893eb07a.js></script><script type=text/javascript src=./static/js/app.5bfeb426b465d27c2237.js></script></body></html>
+		}
+		
+	 $appid="wx88cb890e1e079473";//这里的appid是假的演示用
+   $redirect_uri=urlencode("http://ch.yzxx-soft.com/eh/ycb/wx/authorization.do");//这里的地址需要http://
+   $url="https://open.weixin.qq.com/connect/oauth2/authorize?appid=".$appid."&redirect_uri=".$redirect_uri."&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect";
+   window.location.href=$url;</script><script type=text/javascript src=./static/js/manifest.2c3709ad80beb874ccb0.js></script><script type=text/javascript src=./static/js/vendor.9751f2b5b120893eb07a.js></script><script type=text/javascript src=./static/js/app.ac57a23a68063f54e140.js></script></body></html>
